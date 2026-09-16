@@ -6,6 +6,17 @@ Repository Digital Twin for **dependencies, risk, proof and change impact**.
 
 Engineering Twin turns a local Git repository into an evidence-driven engineering model. It connects source structure, imports, tests, workflows, governance, risk and blast radius in one navigable interface.
 
+## Strategic availability
+
+Engineering Twin is available for **strategic acquisition, OEM / white-label discussions and enterprise licensing**.
+
+This repository is the non-confidential public product surface. The private product core, internal release evidence and diligence materials are maintained separately and are disclosed only through an appropriate evaluation process.
+
+- [Buyer overview](BUYER-OVERVIEW.md)
+- [Security model](SECURITY.md)
+- [Product site](https://rockinai88.github.io/engineering-twin/)
+- [Contact RockIn AI](https://github.com/rockinai88)
+
 ## What it helps answer
 
 - What depends on this component?
@@ -27,6 +38,7 @@ Engineering Twin turns a local Git repository into an evidence-driven engineerin
 | RISK | Prioritized engineering risk |
 | PROOF | Evidence behind conclusions |
 | IMPACT | Change-impact and blast-radius analysis |
+
 ## Security model
 
 - Local-first analysis
@@ -34,9 +46,19 @@ Engineering Twin turns a local Git repository into an evidence-driven engineerin
 - Loopback-only local UI
 - Offline-first runtime
 - Exact Git SHA evidence
-- No product source code is published in this repository
+- No customer repository data or product secrets are stored in this public repository
 
-## Commercial plans
+## Evaluation path
+
+1. Review the public product evidence and screenshots.
+2. Establish an NDA before private technical disclosure.
+3. Run a private demo against an authorized repository and record the exact Git SHA.
+4. Review architecture, OSS / third-party inventory, acceptance criteria and known limits.
+5. Select the commercial structure: acquisition, OEM / white-label or enterprise licensing.
+
+## Alternative commercial paths
+
+Reference pricing for subscription or licensing discussions:
 
 | Plan | Monthly | Annual | Best for |
 |---|---:|---:|---|
@@ -45,19 +67,8 @@ Engineering Twin turns a local Git repository into an evidence-driven engineerin
 | Team | €149 | €1,490 | Small engineering teams |
 | Enterprise | Custom | Custom | Organizations / self-hosted |
 
-**14-day Pro trial** is planned for the commercial release.
+Checkout and the planned Pro trial are not active in this public repository.
 
-## Commercial availability
-
-Engineering Twin is being prepared for:
-
-- SaaS subscriptions
-- Team and Enterprise licensing
-- Self-hosted Enterprise deployment
-- OEM / white-label discussions
-- Strategic acquisition inquiries
-
-The private product core is maintained separately from this public product repository.
 ## Product preview
 
 ![Engineering Twin — NOW](docs/assets/now.png)
@@ -74,6 +85,6 @@ It does **not** contain the private Engineering Twin analyzer, risk engine, impa
 
 ## Status
 
-Commercialization and public distribution are being prepared under the RockIn AI brand.
+Strategic acquisition, OEM / white-label and enterprise licensing discussions are open under the RockIn AI brand.
 
 **Private engineering. Public product evidence.**
