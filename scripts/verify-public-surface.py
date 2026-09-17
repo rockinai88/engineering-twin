@@ -20,8 +20,14 @@ def check(condition, message):
 check('id="acquisition"' in html, "acquisition section present")
 check("Strategic acquisition / licensing" in html, "primary acquisition CTA present")
 check("BUYER-OVERVIEW.md" in html and "BUYER-OVERVIEW.md" in readme, "buyer overview linked")
-check(html.index('id="acquisition"') < html.index('id="pricing"'), "acquisition precedes pricing")
+check('id="commercial"' in html, "commercial structures section present")
+check(html.index('id="acquisition"') < html.index('id="commercial"'), "acquisition precedes commercial structures")
 check("https://rockinai88.github.io/engineering-twin/" in html, "canonical public URL present")
+check('id="pricing"' not in html, "legacy pricing section absent")
+for marker in ("€19", "€49", "€149", "€190", "€490", "€1,490"):
+    check(marker not in html and marker not in readme, f"fixed public price absent: {marker}")
+for marker in ("checkout", "planned Pro trial"):
+    check(marker.lower() not in html.lower() and marker.lower() not in readme.lower(), f"transaction signal absent: {marker}")
 check("../LICENSE.md" not in html and "../SECURITY.md" not in html, "no broken parent-doc links")
 
 ids = re.findall(r'\bid="([^"]+)"', html)
