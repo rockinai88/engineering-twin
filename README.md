@@ -56,18 +56,15 @@ This repository is the non-confidential public product surface. The private prod
 4. Review architecture, OSS / third-party inventory, acceptance criteria and known limits.
 5. Select the commercial structure: acquisition, OEM / white-label or enterprise licensing.
 
-## Alternative commercial paths
+## Commercial structures
 
-Reference pricing for subscription or licensing discussions:
+Engineering Twin can be discussed under three separate structures after intended use, deployment scope, rights, support and acceptance requirements are defined:
 
-| Plan | Monthly | Annual | Best for |
-|---|---:|---:|---|
-| Starter | €19 | €190 | Individual developers |
-| Pro | €49 | €490 | Professional power users |
-| Team | €149 | €1,490 | Small engineering teams |
-| Enterprise | Custom | Custom | Organizations / self-hosted |
+- **A — Enterprise License**: defined use rights; ownership and non-granted rights remain with the provider.
+- **B — OEM / White-Label**: separately defined embedding, branding and redistribution rights.
+- **C — Asset / Rights Transfer**: only expressly listed transferable assets and expressly defined rights of use.
 
-Checkout and the planned Pro trial are not active in this public repository.
+This public repository is informational only. Commercial terms are transaction-specific and require agreed scope.
 
 ## Product preview
 
